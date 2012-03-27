@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bam-server name="bam-devel">
+  <host>172.16.1.97</host>
+  <port>8080</port>
+</bam-server> 
+
+<bam-server name="local">
+  <host>localhost</host>
+  <port>9090</port>
+</bam-server> 
