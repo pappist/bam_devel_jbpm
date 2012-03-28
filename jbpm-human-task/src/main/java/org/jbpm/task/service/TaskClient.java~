@@ -430,7 +430,7 @@ public class TaskClient  {
                                    CommandName.OperationRequest,
                                    args );
         
-        handler.addResponseHandler( cmd.getId(), 
+        handler.addResponseHandler( cmd.getId(),
                                     responseHandler );
 
         connector.write( cmd );
